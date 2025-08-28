@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Fundamentals - PLP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Power Learn Project - JavaScript Fundamentals</h1>
+    </header>
+
+    <main>
+        <!-- Part 1: User Input & Conditionals -->
+        <section id="part1">
+            <h2>Part 1: Variables & Conditionals</h2>
+            <label for="age">Enter your age:</label>
+            <input type="number" id="age" placeholder="e.g., 18">
+            <button onclick="checkAge()">Check Age</button>
+            <p id="ageResult"></p>
+        </section>
+
+        <!-- Part 2: Functions -->
+        <section id="part2">
+            <h2>Part 2: Functions</h2>
+            <label for="num1">Number 1:</label>
+            <input type="number" id="num1">
+            <label for="num2">Number 2:</label>
+            <input type="number" id="num2">
+            <button onclick="sumNumbers()">Add Numbers</button>
+            <p id="sumResult"></p>
+
+            <button onclick="toggleBackground()">Toggle Background Color</button>
+        </section>
+
+        <!-- Part 3: Loops -->
+        <section id="part3">
+            <h2>Part 3: Loops</h2>
+            <button onclick="listNumbers()">List Numbers 1-10</button>
+            <ul id="numberList"></ul>
+
+            <button onclick="countdown()">Countdown from 5</button>
+            <p id="countdownResult"></p>
+        </section>
+
+        <!-- Part 4: DOM Manipulation -->
+        <section id="part4">
+            <h2>Part 4: DOM Manipulation</h2>
+            <button onclick="addNewItem()">Add Item to List</button>
+            <ul id="dynamicList">
+                <li>Item 1</li>
+                <li>Item 2</li>
+            </ul>
